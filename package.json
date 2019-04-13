@@ -50,5 +50,19 @@
     "moduleNameMapper": {
       "\\.css$": "identity-obj-proxy"
     }
+  },
+  "babel": {
+    "presets": [
+      "@babel/preset-react",
+      [
+        "@babel/preset-env",
+        {
+          "targets": {
+            "node": "current"
+          }
+        }
+      ],
+      "@babel/preset-typescript"
+    ]
   }
 }
