@@ -1,7 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
 
-import styles from "./index.css";
+import styles from "./index.module.css";
 
 const Index = () => {
   return <div className={styles.hello}>Hello React!</div>;
