@@ -27,7 +27,6 @@
     "identity-obj-proxy": "^3.0.0",
     "jest": "^24.7.1",
     "react": "^16.8.6",
-    "react-dev-utils": "^8.0.0",
     "react-dom": "^16.8.6",
     "react-testing-library": "^6.1.2",
     "source-map-loader": "^0.2.4",
